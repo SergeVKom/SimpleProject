@@ -24,7 +24,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter you name and email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSD-pV-acY">
                                         <rect key="frame" x="0.0" y="0.0" width="251.5" height="20.5"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="message"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="title"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -56,14 +56,16 @@
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gN-GV-bMI">
-                                        <rect key="frame" x="0.0" y="161.5" width="88" height="30"/>
-                                        <state key="normal" title="Sent request"/>
+                                        <rect key="frame" x="0.0" y="161.5" width="92" height="30"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="sendButton"/>
+                                        <state key="normal" title="Send request"/>
                                         <connections>
                                             <action selector="sentRequest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jfu-JT-SWj"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9m-du-aXq">
                                         <rect key="frame" x="0.0" y="199.5" width="38" height="20.5"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="message"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.37247694780000001" blue="0.2585256232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -71,7 +73,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="gA4-1i-24u" secondAttribute="trailing" id="BTO-D2-e79"/>
-                                    <constraint firstAttribute="height" constant="220" id="NJC-qT-dQi"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="S9X-rm-CIJ" secondAttribute="trailing" id="nGP-kb-4hR"/>
                                 </constraints>
                             </stackView>
