@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         userEmailField.delegate = self
         error.text = ""
     }
+    
     //MARK: UITextFieldDelegate
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         userNameField.resignFirstResponder()
