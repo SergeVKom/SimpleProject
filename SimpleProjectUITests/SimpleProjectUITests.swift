@@ -22,6 +22,7 @@ class SimpleProjectUITests: XCTestCase {
         super.tearDown()
     }
     
+    
     func testUIExample() {
         let name = app.textFields["userName"]
         let email = app.textFields["email"]
