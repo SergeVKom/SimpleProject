@@ -23,12 +23,12 @@
 	<key>PushTestDataToReportPortal</key>
 	<true/>
 	<key>ReportPortalLaunchName</key>
-	<string>Regression</string>
+	<string>???</string>
 	<key>ReportPortalTags</key>
-	<string>SimpleProject</string>
+	<string>???</string>
 	<key>ReportPortalToken</key>
-	<string>28be5c21-cc78-474a-8d16-d89270ea2d6b</string>
+	<string>???</string>
 	<key>ReportPortalURL</key>
-	<string>https://report-portal.oxagile.com/api/v1/gaia</string>
+	<string>???</string>
 </dict>
 </plist>
