@@ -21,7 +21,7 @@
 	<key>NSPrincipalClass</key>
 	<string>RPAgentSwiftXCTest.RPListener</string>
 	<key>PushTestDataToReportPortal</key>
-	<true/>
+	<false/>
 	<key>ReportPortalLaunchName</key>
 	<string>???</string>
 	<key>ReportPortalTags</key>
